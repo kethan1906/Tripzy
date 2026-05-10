@@ -1,0 +1,11 @@
+const express = require('express');
+const { getAlerts, markRead, markAllRead, createAlert, deleteAlert } = require('../controllers/expenseAlertController');
+const { protect } = require('../middleware/auth');
+const router = express.Router();
+router.use(protect);
+router.get('/', getAlerts);
+router.post('/', createAlert);
+router.put('/read-all', markAllRead);
+router.put('/:id/read', markRead);
+router.delete('/:id', deleteAlert);
+module.exports = router;

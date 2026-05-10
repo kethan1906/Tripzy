@@ -1,0 +1,5 @@
+2026-04-08 12:54:53 [ERROR]: ValidationError: Expense validation failed: trip: Path `trip` is required.
+    at Document.invalidate (C:\study\tripzy_improved\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\study\tripzy_improved\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\study\tripzy_improved\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

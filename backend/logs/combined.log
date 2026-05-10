@@ -1,0 +1,83 @@
+2026-04-07 12:48:42 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 12:48:42 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 12:48:43 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 12:48:43 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 12:48:48 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 12:48:48 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 12:49:17 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 12:49:17 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 21:22:42 [WARN]: MongoDB disconnected. Attempting reconnect...
+2026-04-07 21:22:52 [INFO]: MongoDB reconnected
+2026-04-07 21:23:52 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 21:23:52 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 21:24:55 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 21:24:55 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 22:25:29 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 22:26:12 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 22:26:12 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 22:27:18 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 22:27:18 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 22:32:34 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 22:32:34 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 22:40:36 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 22:40:36 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 23:09:15 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 23:15:19 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 23:21:39 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 23:21:39 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 23:21:46 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 23:25:59 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 23:25:59 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 23:26:05 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 23:52:48 [INFO]: LiveTrip started: 69d54b7802b11c3f51936871 with 20 steps
+2026-04-07 23:53:55 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-07 23:53:55 [INFO]: ✅ MongoDB connected: localhost
+2026-04-07 23:54:34 [INFO]: User logged in: demo@tripzy.com
+2026-04-07 23:57:12 [INFO]: Itinerary generated & saved: 69d54c80c7ad72ea9f743077 for user 69d39cad2ce5e425a5b6f8d0
+2026-04-07 23:58:08 [INFO]: Trip created: 69d54cb8c7ad72ea9f7430c7 by user 69d39cad2ce5e425a5b6f8d0
+2026-04-07 23:58:35 [INFO]: Itinerary generated & saved: 69d54cd3c7ad72ea9f7430de for user 69d39cad2ce5e425a5b6f8d0
+2026-04-08 00:17:43 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-08 00:17:43 [INFO]: ✅ MongoDB connected: localhost
+2026-04-08 00:18:05 [INFO]: User logged in: demo@tripzy.com
+2026-04-08 00:21:04 [INFO]: LiveTrip started: 69d55218975e1e4814795ce7 with 15 steps
+2026-04-08 11:47:19 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-08 11:47:19 [INFO]: ✅ MongoDB connected: localhost
+2026-04-08 11:55:41 [INFO]: User logged in: demo@tripzy.com
+2026-04-08 12:51:50 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-08 12:51:50 [INFO]: ✅ MongoDB connected: localhost
+2026-04-08 12:53:34 [INFO]: User logged in: demo@tripzy.com
+2026-04-08 12:54:53 [ERROR]: ValidationError: Expense validation failed: trip: Path `trip` is required.
+    at Document.invalidate (C:\study\tripzy_improved\backend\node_modules\mongoose\lib\document.js:3381:32)
+    at C:\study\tripzy_improved\backend\node_modules\mongoose\lib\document.js:3142:17
+    at C:\study\tripzy_improved\backend\node_modules\mongoose\lib\schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-04-08 22:40:28 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-08 22:40:28 [INFO]: ✅ MongoDB connected: localhost
+2026-04-09 11:55:50 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-09 11:55:50 [INFO]: ✅ MongoDB connected: localhost
+2026-04-09 12:03:05 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-09 12:03:05 [INFO]: ✅ MongoDB connected: localhost
+2026-04-11 14:20:34 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-11 14:20:34 [INFO]: ✅ MongoDB connected: localhost
+2026-04-11 14:34:38 [INFO]: New user registered: kethan1906@gmail.com
+2026-04-11 14:37:21 [INFO]: Itinerary generated & saved: 69da0f4998ebf9035e23f877 for user 69da0ea698ebf9035e23f831
+2026-04-11 14:38:29 [INFO]: LiveTrip started: 69da0f8d98ebf9035e23f913 with 14 steps
+2026-04-11 14:42:01 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-11 14:42:01 [INFO]: ✅ MongoDB connected: localhost
+2026-04-11 14:42:22 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-11 14:42:22 [INFO]: ✅ MongoDB connected: localhost
+2026-04-11 14:43:01 [INFO]: User logged in: kethan1906@gmail.com
+2026-04-11 14:45:20 [INFO]: LiveTrip started: 69da11289658c0b6c5c4f586 with 14 steps
+2026-04-11 14:47:51 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-11 14:47:51 [INFO]: ✅ MongoDB connected: localhost
+2026-04-25 12:37:00 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-25 12:37:00 [INFO]: ✅ MongoDB connected: localhost
+2026-04-25 12:37:36 [INFO]: User logged in: demo@tripzy.com
+2026-04-25 12:38:13 [INFO]: LiveTrip started: 69ec685dc0e69cfa0e9e5c2f with 15 steps
+2026-04-25 12:42:40 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-25 12:42:40 [INFO]: ✅ MongoDB connected: localhost
+2026-04-28 22:44:30 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-28 22:44:30 [INFO]: ✅ MongoDB connected: localhost
+2026-04-28 22:44:32 [INFO]: LiveTrip started: 69f0eaf8b22213e943fd0d96 with 14 steps
+2026-04-28 22:52:47 [INFO]: 🚀 Tripzy Backend running on port 5000 in development mode
+2026-04-28 22:52:47 [INFO]: ✅ MongoDB connected: localhost

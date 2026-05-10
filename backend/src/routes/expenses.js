@@ -1,0 +1,12 @@
+const express = require('express');
+const { getExpenses, createExpense, updateExpense, deleteExpense, getBudgetAnalysis } = require('../controllers/expenseAlertController');
+const { protect } = require('../middleware/auth');
+const router = express.Router();
+router.use(protect);
+router.get('/all', (req, res, next) => { req.params.tripId = 'all'; next(); }, getExpenses);
+router.get('/:tripId', getExpenses);
+router.get('/:tripId/analysis', getBudgetAnalysis);
+router.post('/', createExpense);
+router.put('/:id', updateExpense);
+router.delete('/:id', deleteExpense);
+module.exports = router;
