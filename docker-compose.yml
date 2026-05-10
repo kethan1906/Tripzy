@@ -1,0 +1,76 @@
+version: '3.9'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:7.0
+    container_name: tripzy-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    environment:
+      MONGO_INITDB_DATABASE: tripzy
+    networks:
+      - tripzy-network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: tripzy-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: production
+      MONGODB_URI: mongodb://mongodb:27017/tripzy
+      JWT_SECRET: ${JWT_SECRET:-tripzy-change-this-in-production}
+      JWT_EXPIRES_IN: 7d
+      OPENWEATHER_API_KEY: ${OPENWEATHER_API_KEY:-}
+      ML_SERVICE_URL: http://ml-service:8000
+      FRONTEND_URL: http://localhost:3000
+      PORT: 5000
+    depends_on:
+      - mongodb
+    networks:
+      - tripzy-network
+
+  # ML Service
+  ml-service:
+    build:
+      context: ./ml-service
+      dockerfile: Dockerfile
+    container_name: tripzy-ml
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    networks:
+      - tripzy-network
+
+  # Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        VITE_API_URL: http://localhost:5000/api
+        VITE_ML_SERVICE_URL: http://localhost:8000
+        VITE_MAPBOX_TOKEN: ${VITE_MAPBOX_TOKEN:-}
+    container_name: tripzy-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - tripzy-network
+
+volumes:
+  mongodb_data:
+
+networks:
+  tripzy-network:
+    driver: bridge

@@ -1,0 +1,50 @@
+{
+  "accuracy": 0.824,
+  "features": [
+    "hour",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "is_holiday",
+    "has_event",
+    "temperature",
+    "humidity",
+    "location_type_enc",
+    "weather_enc",
+    "location_enc"
+  ],
+  "location_types": [
+    "beach",
+    "market",
+    "museum",
+    "park",
+    "restaurant",
+    "shopping_mall",
+    "tourist_spot",
+    "transport_hub"
+  ],
+  "weather_types": [
+    "clear",
+    "clouds",
+    "fog",
+    "rain",
+    "snow"
+  ],
+  "locations": [
+    "Amsterdam",
+    "Bangkok",
+    "Barcelona",
+    "Dubai",
+    "Istanbul",
+    "London",
+    "New York",
+    "Paris",
+    "Rome",
+    "Singapore",
+    "Sydney",
+    "Tokyo"
+  ],
+  "trained_at": "2026-04-06T17:19:04.414204",
+  "model_type": "RandomForestClassifier",
+  "n_samples": 5000
+}
